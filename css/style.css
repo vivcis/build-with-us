@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  
+}
+/*   navigation bar*/
+.navbar{
+  padding: 2rem;
+  background: #fff;
+}
+
+/*.navbar-nav li{
+  padding-right: 20px;
+}*/
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+/*styling hero section*/
+.paint{
+  background-image: url("../Images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+h1, .border-white{
+  font-size: 8em;
+  font-weight: 400;
+}
+
+/*styling how can we help section*/
+
+ section, .text-center{
+  background-color: #e5e5e5;
+}
+
+ button{
+  /*background-color: #B22222;*/
+  width: 10rem;
+  height: 3rem;
+  font-size: 2em;
+}
+
+button:hover{
+  background-color: none;
+}
+
+/*styling need help section*/
+
+p, .planning{
+  text-align: center;
+  align-content: center;
+}
+ .needHelp{
+  background-color: #fff;
+}
+
+/*styling the best quality section*/
+
+.border-bottom{
+  width: 60%;
+}
+
+div .plumber img {
+  height: 50px;
+}
+
+/*styling our services section*/
+/*section, .ourServices{
+  height: 20rem;
+}*/
+
+/*styling about us section*/
+ .about-US{
+  background-color:  #004080;
+}
+
+h1, .plumbing{
+  font-size: 11.5rem;
+}
+
+  /*img,
+ .img1,
+ .img2,
+ .img3,
+ .img4{
+  height: 15em;
+}*/
+/*footer styling*/
+ a, span:link{
+  text-decoration: none;
+  color: #fff;
+}
